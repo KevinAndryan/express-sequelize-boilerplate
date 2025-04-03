@@ -1,4 +1,4 @@
-const db = require('../models');
+const db = require('../database/database');
 const Invoice = db.Invoice;
 
 exports.create = (req, res) => {};

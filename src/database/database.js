@@ -27,8 +27,8 @@ db.sequelize = sequelize;
 /**
  * Models/tables
  */
-db.User = require('./User.model.js')(sequelize, Sequelize);
-db.Invoice = require('./Invoice.model.js')(sequelize, Sequelize);
+db.User = require("../models/User.model.js")(sequelize, Sequelize);
+db.Invoice = require('../models/Invoice.model.js')(sequelize, Sequelize);
 
 
 /**
